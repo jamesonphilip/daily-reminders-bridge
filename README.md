@@ -4,7 +4,7 @@ macOS LaunchAgent + AI-generated AppleScript for daily personalized parenting an
 
 Every morning at 6 AM, five Apple Reminders appear in your Reminders app:
 
-- **3 child development tips** — personalized to your kids' names and exact ages, grounded in peer-reviewed research
+- **3 child development tips** — personalized to each child's name and exact age, grounded in peer-reviewed research
 - **2 marriage/relationship tips** — drawn from relationship science (Gottman, attachment theory, etc.)
 
 The content is fresh every single day. No repeated reminders, no generic advice.
@@ -72,7 +72,7 @@ Configure a Claude Cowork scheduled task (or equivalent) to run at **5:30 AM dai
 
 A minimal prompt template:
 
-> Write a bash script to `/path/to/daily-reminders-bridge/daily-apple-reminders.sh` that creates 5 Apple Reminders due at 6:00 AM today using osascript. Include 3 child development tips personalized to: Lola (born YYYY-MM-DD), Marlo (born YYYY-MM-DD), Hudson (born YYYY-MM-DD) — use their exact current ages and cite peer-reviewed research. Include 2 marriage/relationship tips grounded in relationship science. See the sample script in the repo for the expected structure.
+> Write a bash script to `/path/to/daily-reminders-bridge/daily-apple-reminders.sh` that creates 5 Apple Reminders due at 6:00 AM today using osascript. Include 3 child development tips personalized to: Child1 (born YYYY-MM-DD), Child2 (born YYYY-MM-DD), Child3 (born YYYY-MM-DD) — use their exact current ages and cite peer-reviewed research. Include 2 marriage/relationship tips grounded in relationship science. See the sample script in the repo for the expected structure.
 
 ---
 
@@ -101,7 +101,7 @@ The `remind me date` property is what triggers the notification at 6 AM. The `bo
 ## Customization
 
 **Change children's names or birthdates**
-Update the prompt you give your AI agent. The AI calculates exact ages at generation time — no configuration file needed.
+Update the prompt you give your AI agent with your children's real names and birthdates. The AI calculates exact ages at generation time — no configuration file needed.
 
 **Change the Reminders list**
 Edit the `LIST_NAME` variable near the top of `daily-apple-reminders.sh` (the sample), and update your AI prompt to use the same list name.

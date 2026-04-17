@@ -4,8 +4,8 @@
 # SAMPLE / EXAMPLE — this file is regenerated fresh each morning by the AI agent.
 # Do not edit manually; your changes will be overwritten.
 #
-# Generated: 2026-04-16 05:30:00
-# Children: Lola (age 7y 3m), Marlo (age 5y 1m), Hudson (age 2y 8m)
+# Generated: YYYY-MM-DD 05:30:00
+# Children: Child1 (age Xy Ym), Child2 (age Xy Ym), Child3 (age Xy Ym)
 
 set -euo pipefail
 
@@ -32,20 +32,20 @@ APPLESCRIPT
     echo "Added reminder: $title"
 }
 
-# ── Reminder 1 — Lola (age 7y 3m) ────────────────────────────────────────────
+# ── Reminder 1 — Child1 (age 7y) ─────────────────────────────────────────────
 add_reminder \
-    "Lola tip — Encourage autonomy" \
-    "At 7, children thrive when given small choices with real consequences. Let Lola pick tonight's dinner vegetable and follow through — it builds executive function and trust. (Source: Deci & Ryan, self-determination theory)"
+    "Child1 tip — Encourage autonomy" \
+    "At 7, children thrive when given small choices with real consequences. Let Child1 pick tonight's dinner vegetable and follow through — it builds executive function and trust. (Source: Deci & Ryan, self-determination theory)"
 
-# ── Reminder 2 — Marlo (age 5y 1m) ───────────────────────────────────────────
+# ── Reminder 2 — Child2 (age 5y) ─────────────────────────────────────────────
 add_reminder \
-    "Marlo tip — Emotion labeling" \
-    "Five-year-olds are still mapping feelings to words. When Marlo gets frustrated, narrate: 'You look really disappointed that we can't go yet.' This co-regulation scaffolds her own emotional vocabulary. (Source: Gottman emotion-coaching research)"
+    "Child2 tip — Emotion labeling" \
+    "Five-year-olds are still mapping feelings to words. When Child2 gets frustrated, narrate: 'You look really disappointed that we can't go yet.' This co-regulation scaffolds their own emotional vocabulary. (Source: Gottman emotion-coaching research)"
 
-# ── Reminder 3 — Hudson (age 2y 8m) ──────────────────────────────────────────
+# ── Reminder 3 — Child3 (age 2y) ─────────────────────────────────────────────
 add_reminder \
-    "Hudson tip — Parallel play is connection" \
-    "At 2–3, children play alongside others, not yet cooperatively. Sit near Hudson and do your own 'work' while he plays — your calm presence is co-regulation without intrusion. (Source: Parten's stages of play)"
+    "Child3 tip — Parallel play is connection" \
+    "At 2–3, children play alongside others, not yet cooperatively. Sit near Child3 and do your own 'work' while they play — your calm presence is co-regulation without intrusion. (Source: Parten's stages of play)"
 
 # ── Reminder 4 — Marriage tip ─────────────────────────────────────────────────
 add_reminder \
