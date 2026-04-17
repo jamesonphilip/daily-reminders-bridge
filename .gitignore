@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Auto-generated runner (contains absolute paths — machine-specific)
+.reminders-runner.sh
+
+# Logs
+*.log
+/tmp/daily-reminders.log
